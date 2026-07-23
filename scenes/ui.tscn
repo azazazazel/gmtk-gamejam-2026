@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://e2aq1521kiag"]
+
+[node name="UI" type="Node2D" unique_id=1652644860]
+
+[node name="Label" type="Label" parent="." unique_id=1049019563]
+offset_right = 265.0
+offset_bottom = 23.0
+text = "SAMPLE TEXT MOMENT HOLY POG"

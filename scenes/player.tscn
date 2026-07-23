@@ -5,14 +5,13 @@
 
 [node name="Player" type="CharacterBody2D" unique_id=1850332410]
 script = ExtResource("1_g2els")
-rotation_speed = 4.0
-max_speed = 100000.0
-acceleration = 81
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=557490866]
 texture = ExtResource("1_3vyb7")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1373760905]
 position = Vector2(1, 0)
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=674149773]

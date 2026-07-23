@@ -17,4 +17,3 @@ scale = Vector2(3.3656545, 3.8325312)
 texture = ExtResource("2_mx8sn")
 
 [node name="Player" parent="." unique_id=2046165204 instance=ExtResource("3_ppgk2")]
-acceleration = 2.5
