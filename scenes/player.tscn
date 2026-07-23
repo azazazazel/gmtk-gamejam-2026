@@ -1,13 +1,18 @@
 [gd_scene format=3 uid="uid://dwmvgva1jjyk7"]
 
 [ext_resource type="Texture2D" uid="uid://cw1no5hlhgew5" path="res://assets/player_cat.webp" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://cyne5jtsi7q52" path="res://scripts/player.gd" id="1_g2els"]
 
-[node name="Player" type="Node2D" unique_id=2046165204]
+[node name="Player" type="CharacterBody2D" unique_id=1850332410]
+script = ExtResource("1_g2els")
+rotation_speed = 4.0
+max_speed = 100000.0
+acceleration = 81
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1679194625]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=557490866]
 texture = ExtResource("1_3vyb7")
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=52692672]
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1722901071]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1373760905]
 position = Vector2(1, 0)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=674149773]
