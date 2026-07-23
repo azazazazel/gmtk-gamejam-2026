@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://de7n1ubv0rbbv"]
 
-[ext_resource type="Texture2D" uid="uid://dt16kus42wuk0" path="res://assets/background_floor_PLACEHOLDER.jpg" id="1_w8frs"]
-[ext_resource type="Texture2D" uid="uid://c4spi6rikt5df" path="res://assets/background_supermarket_PLACEHOLDER.png" id="2_mx8sn"]
+[ext_resource type="Texture2D" uid="uid://dt16kus42wuk0" path="res://assets/images/background_floor_PLACEHOLDER.jpg" id="1_w8frs"]
+[ext_resource type="Texture2D" uid="uid://c4spi6rikt5df" path="res://assets/images/background_supermarket_PLACEHOLDER.png" id="2_mx8sn"]
 [ext_resource type="PackedScene" uid="uid://dwmvgva1jjyk7" path="res://scenes/player.tscn" id="3_ppgk2"]
 
 [node name="Level" type="Node2D" unique_id=596671606]
 
 [node name="Floor" type="Sprite2D" parent="." unique_id=385664443]
-position = Vector2(-16.000305, -383.5)
+position = Vector2(40, -421.99997)
 scale = Vector2(2.5430768, 2.2247252)
 texture = ExtResource("1_w8frs")
 

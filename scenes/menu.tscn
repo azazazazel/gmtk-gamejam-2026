@@ -1,3 +1,60 @@
 [gd_scene format=3 uid="uid://c6t1c3kwargjn"]
 
+[ext_resource type="Texture2D" uid="uid://bann76p8kncha" path="res://assets/images/menu_backgrounder.webp" id="1_4ytvr"]
+[ext_resource type="Script" uid="uid://call1x8oorejc" path="res://scripts/menu.gd" id="1_13sgg"]
+[ext_resource type="Script" uid="uid://lypjf1lkagsf" path="res://scripts/buttonsfx.gd" id="1_g3eks"]
+[ext_resource type="AudioStream" uid="uid://dvrdf8352fmtb" path="res://assets/sounds/sfx/menu_button_press.wav" id="1_v86rl"]
+[ext_resource type="Texture2D" uid="uid://cpy3ts0o22kds" path="res://assets/images/menu_background.webp" id="1_vjb58"]
+[ext_resource type="Texture2D" uid="uid://dl653hgecd3b" path="res://assets/images/menu_start.webp" id="2_con2f"]
+[ext_resource type="Texture2D" uid="uid://c8isx0sj3qxy" path="res://assets/images/menu_settings.webp" id="3_mhnvy"]
+[ext_resource type="Texture2D" uid="uid://d2t2fcaqg2g77" path="res://assets/images/menu_quit.webp" id="4_4ytvr"]
+
 [node name="Menu" type="Node2D" unique_id=411422453]
+script = ExtResource("1_13sgg")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=800909165]
+stream = ExtResource("1_v86rl")
+script = ExtResource("1_g3eks")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=350572916]
+modulate = Color(0.40392157, 0.13333334, 0.23529412, 1)
+position = Vector2(1722.0002, 565.0001)
+scale = Vector2(24.868965, 18.478125)
+texture = ExtResource("1_4ytvr")
+
+[node name="WeighingScales" type="Sprite2D" parent="." unique_id=698303816]
+position = Vector2(576, 324)
+scale = Vector2(1.75, 1.75)
+texture = ExtResource("1_vjb58")
+
+[node name="StartButton" type="TextureButton" parent="WeighingScales" unique_id=25394045]
+offset_left = -107.5
+offset_top = -125.0
+offset_right = 107.5
+offset_bottom = -50.0
+scale = Vector2(0.95, 0.95)
+texture_normal = ExtResource("2_con2f")
+ignore_texture_size = true
+
+[node name="SettingsButton" type="TextureButton" parent="WeighingScales" unique_id=1275224197]
+offset_left = -135.0
+offset_top = -35.0
+offset_right = 140.0
+offset_bottom = 40.0
+scale = Vector2(0.94, 0.94)
+texture_normal = ExtResource("3_mhnvy")
+
+[node name="QuitButton" type="TextureButton" parent="WeighingScales" unique_id=760459861]
+offset_left = -107.5
+offset_top = 55.0
+offset_right = 107.5
+offset_bottom = 130.0
+scale = Vector2(0.95, 0.95)
+texture_normal = ExtResource("4_4ytvr")
+
+[connection signal="pressed" from="WeighingScales/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="WeighingScales/StartButton" to="AudioStreamPlayer2D" method="_on_button_pressed"]
+[connection signal="pressed" from="WeighingScales/SettingsButton" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="WeighingScales/SettingsButton" to="AudioStreamPlayer2D" method="_on_button_pressed"]
+[connection signal="pressed" from="WeighingScales/QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="WeighingScales/QuitButton" to="AudioStreamPlayer2D" method="_on_button_pressed"]

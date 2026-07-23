@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://brm2a1w0cm7hb"
+path="res://.godot/imported/Nouveau_projet (1).wav-66c420af50ec2d80315e2cc4c1acfdfd.sample"
+
+[deps]
+
+source_file="res://assets/sounds/sfx/Nouveau_projet (1).wav"
+dest_files=["res://.godot/imported/Nouveau_projet (1).wav-66c420af50ec2d80315e2cc4c1acfdfd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

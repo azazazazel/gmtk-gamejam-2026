@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="gmtk gamejam"
-run/main_scene="uid://de7n1ubv0rbbv"
+run/main_scene="uid://c6t1c3kwargjn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 
 [display]
@@ -29,6 +29,7 @@ version_control/autoload_on_startup=true
 folder_colors={
 "res://addons/": "gray",
 "res://assets/": "purple",
+"res://releases/": "red",
 "res://scenes/": "orange",
 "res://scripts/": "teal"
 }
