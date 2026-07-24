@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4spi6rikt5df"
-path="res://.godot/imported/background_supermarket_PLACEHOLDER.png-d2f2c5b8dadc8e36d5680cd749d55760.ctex"
+uid="uid://bu7cnmyga1fin"
+path="res://.godot/imported/menu_wallpaper.webp-5434759416db6593bc5a7111193eef65.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/background_supermarket_PLACEHOLDER.png"
-dest_files=["res://.godot/imported/background_supermarket_PLACEHOLDER.png-d2f2c5b8dadc8e36d5680cd749d55760.ctex"]
+source_file="res://assets/images/menu_wallpaper.webp"
+dest_files=["res://.godot/imported/menu_wallpaper.webp-5434759416db6593bc5a7111193eef65.ctex"]
 
 [params]
 

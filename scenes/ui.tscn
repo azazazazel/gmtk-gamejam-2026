@@ -1,8 +1,40 @@
 [gd_scene format=3 uid="uid://e2aq1521kiag"]
 
-[node name="UI" type="Node2D" unique_id=1652644860]
+[ext_resource type="Texture2D" uid="uid://cm7mylh5t2cmq" path="res://assets/images/menu_dealer.webp" id="1_nt7q6"]
 
-[node name="Label" type="Label" parent="." unique_id=1049019563]
-offset_right = 265.0
-offset_bottom = 23.0
-text = "SAMPLE TEXT MOMENT HOLY POG"
+[sub_resource type="AtlasTexture" id="AtlasTexture_x4jx1"]
+atlas = ExtResource("1_nt7q6")
+region = Rect2(0, 0, 624, 624)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yev5y"]
+atlas = ExtResource("1_nt7q6")
+region = Rect2(624, 0, 624, 624)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gdt2y"]
+atlas = ExtResource("1_nt7q6")
+region = Rect2(1248, 0, 624, 624)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5gjxc"]
+animations = [{
+"frames": [{
+"duration": 5.0,
+"texture": SubResource("AtlasTexture_x4jx1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yev5y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gdt2y")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="UI" type="Node2D" unique_id=414201626]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=724812044]
+position = Vector2(647, 564.00006)
+scale = Vector2(1.75, 1.75)
+sprite_frames = SubResource("SpriteFrames_5gjxc")
+autoplay = "default"

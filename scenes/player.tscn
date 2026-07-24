@@ -37,19 +37,19 @@ animations = [{
 radius = 43.0
 height = 218.0
 
-[node name="Player" type="CharacterBody2D" unique_id=1850332410]
+[node name="Player" type="CharacterBody2D" unique_id=54764026]
 script = ExtResource("1_g2els")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=351676634]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1651888938]
 sprite_frames = SubResource("SpriteFrames_1krpu")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=557490866]
-texture = ExtResource("1_3vyb7")
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1373760905]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=844936407]
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1150163782]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=976913612]
+texture = ExtResource("1_3vyb7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1328048136]
 position = Vector2(0, 5)
 shape = SubResource("CapsuleShape2D_5gjxc")

@@ -38,7 +38,6 @@ func get_input():
 		
 	rotation_direction = Input.get_axis("left", "right")
 	velocity = -transform.y * current_speed
-	print(current_speed)
 
 func _physics_process(delta):
 	get_input()

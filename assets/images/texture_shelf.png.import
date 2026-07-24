@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dt16kus42wuk0"
-path="res://.godot/imported/background_floor_PLACEHOLDER.jpg-4e66c82dd604a9d4ac0ad6e9ca720071.ctex"
+uid="uid://ba4yc3ufis8w5"
+path="res://.godot/imported/texture_shelf.png-5e4e5dd80d2755f438c13cbdd21fcec8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/background_floor_PLACEHOLDER.jpg"
-dest_files=["res://.godot/imported/background_floor_PLACEHOLDER.jpg-4e66c82dd604a9d4ac0ad6e9ca720071.ctex"]
+source_file="res://assets/images/texture_shelf.png"
+dest_files=["res://.godot/imported/texture_shelf.png-5e4e5dd80d2755f438c13cbdd21fcec8.ctex"]
 
 [params]
 
