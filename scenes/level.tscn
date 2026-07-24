@@ -8,8 +8,14 @@
 
 [node name="Supermarket" parent="." unique_id=526569350 instance=ExtResource("3_w8frs")]
 
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="." unique_id=1670230755]
+position = Vector2(-4530, 1886)
+remote_path = NodePath("../Player/UI")
+
 [node name="Player" parent="." unique_id=2046165204 instance=ExtResource("3_ppgk2")]
 position = Vector2(-3572, 2423)
 rotation = 1.5707964
 
-[node name="UI" parent="." unique_id=1021581074 instance=ExtResource("3_mx8sn")]
+[node name="UI" parent="Player" unique_id=1021581074 instance=ExtResource("3_mx8sn")]
+position = Vector2(-537, 958)
+rotation = -1.5707964

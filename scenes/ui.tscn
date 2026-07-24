@@ -34,6 +34,7 @@ animations = [{
 [node name="UI" type="Node2D" unique_id=414201626]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=724812044]
+visible = false
 position = Vector2(647, 564.00006)
 scale = Vector2(1.75, 1.75)
 sprite_frames = SubResource("SpriteFrames_5gjxc")
